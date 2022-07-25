@@ -34,7 +34,7 @@ $pdf->addPDF('pdf/1.pdf');
 $pdf->merge('download','merged.pdf');
 ```
 
-### Example Usage
+### ตัวอย่างการใช้งาน
 ```php
 include 'PDFMerger.php';
 
