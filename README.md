@@ -14,7 +14,7 @@ PDFMerger สร้างขึ้นโดย Jarrod Nettles ธันวาค
 
 - อัปเดต
 
-ฉันทดสอบด้วย PHP 7.1 บนเครื่องของฉันแล้วก็ยังใช้งานได้
+ฉันทดสอบด้วย PHP 7.2.34 บนเครื่องของฉันแล้วก็ยังใช้งานได้
 
 ## รองรับ PDF 1.5 และ PDF 1.6
 
@@ -34,7 +34,7 @@ $pdf->addPDF('pdf/1.pdf');
 $pdf->merge('download','merged.pdf');
 ```
 
-### Example Usage
+### ตัวอย่างการใช้งาน
 ```php
 include 'PDFMerger.php';
 
