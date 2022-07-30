@@ -7,6 +7,7 @@ $pdf = new PDFMerger;
 
 $pdf->addPDF('pdf/1.pdf');
 $pdf->addPDF('pdf/2.pdf');
+$pdf->addPDF('pdf/1907-1082.pdf');
 
 // $pdf->merge('open', 'TEST1.pdf'); // generate the file
 // $pdf->merge('file', 'C:\xampp\htdocs\test\sumpdf\PDFMerger-master\TEST.pdf'); // force download
